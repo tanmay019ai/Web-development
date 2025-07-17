@@ -25,7 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import sheenedge from "./sheenedge.png";
+import technojam from "./technojam.png";
+import gtc from "./gtc.png";
+import gssoc from "./gssoc.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -34,6 +37,10 @@ export {
   logo,
   backend,
   creator,
+  sheenedge,
+  technojam,
+  gtc,
+  gssoc,
   mobile,
   web,
   github,
