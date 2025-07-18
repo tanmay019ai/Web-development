@@ -39,8 +39,14 @@ import java from "./tech/java.png";
 import filmora from "./tech/filmora.png";
 import solid from "./tech/solid.png";
 import cloud from "./tech/cloud.png";
+import datavisualization from "./datavisualization.png";
+import ieee2025 from "./ieee2025.png";
+import aiyield from "./aiyield.png";
 
 export {
+  datavisualization,
+  ieee2025,
+  aiyield,
   logo,
   backend,
   cloud,

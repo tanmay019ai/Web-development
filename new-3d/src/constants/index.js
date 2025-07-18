@@ -14,6 +14,9 @@ import {
   html,
   css,
   reactjs,
+  datavisualization,
+  ieee2025,
+  aiyield,
   redux,
   tailwind,
   nodejs,
@@ -182,94 +185,114 @@ const experiences =
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Strongly typed JavaScript that boosts productivity, reduces runtime errors, and scales well in complex React apps.",
+    name: "TypeScript",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Powerful server-side rendering and static site generation for building production-grade React applications.",
+    name: "Next.js",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "The go-to NoSQL database for modern web apps — fast, flexible, and perfect for scalable backend architecture.",
+    name: "MongoDB",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+  },
+  {
+    testimonial:
+      "Production-ready motion library for React that adds smooth animations and delightful interactions effortlessly.",
+    name: "Framer Motion",
+    image: "https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png",
+  },
+  {
+    testimonial:
+      "Machine learning in the browser! Enables smart, AI-driven interfaces by bringing TensorFlow models to frontend.",
+    name: "TensorFlow.js",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+  },
+  {
+    testimonial:
+      "Enables lightweight, fast containerization and deployment. Essential for scalable and reproducible environments.",
+    name: "Docker",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+  },
+  {
+    testimonial:
+      "Next-gen decentralized applications and smart contracts are powered by blockchain — the future of secure systems.",
+    name: "Blockchain",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/05/Ethereum_logo_2014.svg", 
   },
 ];
 
+
 const projects = [
   {
-    name: "Car Rent",
+    name: "Data Visualization Project",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A dynamic web app for visualizing data through interactive bar, line, and scatter plots. Users can upload CSV/JSON files or enter data manually, with real-time updates, zoom/pan, and trend lines. Built using HTML, CSS, JavaScript, and frameworks like Tailwind and Chart.js, the app supports graph export (PNG/JPEG) and data export (CSV). Backend powered by Node.js or Python handles processing, graph generation, and optional database storage.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "chart.js",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: datavisualization, // Replace with actual import
+    source_code_link: "https://github.com/tanmay019ai/Data-visualization-project.git",
   },
   {
-    name: "Job IT",
+    name: "IEEE-2025 Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A responsive frontend website built by Team PureIsh for the IEEE WebWars 2025 challenge. Developed using HTML, CSS, and JavaScript, the project focuses on clean UI, user experience, and interactivity. Deployed using GitHub, Vercel, and Netlify, it highlights strong teamwork, creative design, and efficient frontend development.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "text-yellow-300",
+      },
+    ],
+    image: ieee2025, // Replace with actual import
+    source_code_link: "https://github.com/tanmay019ai/Webwars_PureIsh.git",
+  },
+  {
+    name: "AI Crop Yield Predictor",
+    description:
+      "The AI Crop Yield Predictor combines the power of machine learning and user-friendly interfaces to provide actionable insights for farmers. By analyzing weather, soil data, and historical records, the platform predicts crop yields and offers tailored recommendations, promoting sustainable agricultural practices.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "TensorFlow",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+    image: aiyield, // Replace with actual import
+    source_code_link: "https://github.com/tanmay019ai/AI-CROP-YIELD-PREDICTOR.git",
+  }
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
