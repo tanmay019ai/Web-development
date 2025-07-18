@@ -30,20 +30,34 @@ import technojam from "./technojam.png";
 import gtc from "./gtc.png";
 import gssoc from "./gssoc.png";
 import carrent from "./carrent.png";
+import python from "./tech/python.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import c from "./tech/c.png";
+import cj from "./tech/cj.png";
+import java from "./tech/java.png";
+import filmora from "./tech/filmora.png";
+import solid from "./tech/solid.png";
+import cloud from "./tech/cloud.png";
 
 export {
   logo,
   backend,
+  cloud,
+  solid,
   creator,
   sheenedge,
   technojam,
+  filmora,
   gtc,
   gssoc,
   mobile,
   web,
   github,
+  c,
+  cj,
+  java,
+  python,
   menu,
   close,
   css,

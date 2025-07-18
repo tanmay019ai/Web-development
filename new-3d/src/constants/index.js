@@ -5,6 +5,12 @@ import {
   web,
   javascript,
   typescript,
+  filmora,
+  cloud,
+  solid,
+  cj,
+  c,
+  java,
   html,
   css,
   reactjs,
@@ -74,44 +80,44 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: python,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "C++",
+    icon: cj,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "C",
+    icon: c,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Filmora",
+    icon: filmora,
   },
   {
-    name: "git",
-    icon: git,
+    name: "solidworks",
+    icon: solid,
   },
   {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "cloud",
+    icon: cloud,
   },
 ];
 
