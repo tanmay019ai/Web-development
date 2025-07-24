@@ -25,4 +25,21 @@ fs.writeFile('test.txt', 'Hello World!', function(err) {
     }
 });
 
+fs.appendFile('test.txt', 'i am good!', function(err) {
+    if (err) {
+        console.error('Error writing file:');
+    } else {
+        console.log('File written successfully!');
+    }
+});
+const data = fs.readFileSync('test.txt', 'utf8');
+console.log('File content:', data);
 //writeFile, appendFile, readFile, unlink, copyfile
+
+
+const http= require('http');
+
+const server = http.createServer((req, res) => {
+    res.end('Hello World!\n');
+});
+server.listen(3000);
