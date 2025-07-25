@@ -43,3 +43,10 @@ const server = http.createServer((req, res) => {
     res.end('Hello World!\n');
 });
 server.listen(3000);
+
+//http server listening on port 3000
+console.log('Server is running on http://localhost:3000');
+// To test the server, you can open a web browser and navigate to http://localhost:3000
+// or use a tool like curl or Postman to send a request to the server.
+// The server will respond with "Hello World!" when accessed.
+// To stop the server, you can press Ctrl+C in the terminal where the server is running.
