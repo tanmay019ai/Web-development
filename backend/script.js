@@ -13,7 +13,7 @@
 //         console.error('Fetch error:', err);
 //     }
 // }
-
+//NPM understanding
 // getUser();
 
 const fs = require('fs');
@@ -50,3 +50,10 @@ console.log('Server is running on http://localhost:3000');
 // or use a tool like curl or Postman to send a request to the server.
 // The server will respond with "Hello World!" when accessed.
 // To stop the server, you can press Ctrl+C in the terminal where the server is running.
+
+
+//installing and unistalling basic and advamced
+//scripts-understanding scripts path and custom scripts
+
+//node pack manager(npm) is a package manager for JavaScript and is the default package manager for the JavaScript runtime environment Node.js. It allows developers to install, share, and manage dependencies in their projects. npm provides a vast repository of open-source packages that can be easily integrated into applications, facilitating code reuse and collaboration within the developer community.
+//npm is used to manage packages and dependencies in Node.js applications, making it easier to install
