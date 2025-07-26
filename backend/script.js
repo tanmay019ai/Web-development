@@ -55,5 +55,8 @@ console.log('Server is running on http://localhost:3000');
 //installing and unistalling basic and advamced
 //scripts-understanding scripts path and custom scripts
 
+//node js se download-module
+//npm se download -package
+
 //node pack manager(npm) is a package manager for JavaScript and is the default package manager for the JavaScript runtime environment Node.js. It allows developers to install, share, and manage dependencies in their projects. npm provides a vast repository of open-source packages that can be easily integrated into applications, facilitating code reuse and collaboration within the developer community.
 //npm is used to manage packages and dependencies in Node.js applications, making it easier to install
