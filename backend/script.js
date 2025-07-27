@@ -57,7 +57,7 @@ console.log('Server is running on http://localhost:3000');
 
 //node js se download-module
 //npm se download -package
-
+//node js is runtime environment that allows developers to run JavaScript code on the server side. It is built on Chrome's V8 JavaScript engine and provides an event-driven, non-blocking I/O model, making it suitable for building scalable network applications. Node.js enables developers to create server-side applications using JavaScript, which was traditionally a client-side language, thus allowing for full-stack development using a single programming language.
 //node pack manager(npm) is a package manager for JavaScript and is the default package manager for the JavaScript runtime environment Node.js. It allows developers to install, share, and manage dependencies in their projects. npm provides a vast repository of open-source packages that can be easily integrated into applications, facilitating code reuse and collaboration within the developer community.
 //npm is used to manage packages and dependencies in Node.js applications, making it easier to install
 
@@ -68,3 +68,8 @@ console.log('Server is running on http://localhost:3000');
 //concurently running multiple instances of a Node.js application, which can improve performance and resource utilization. It allows developers to easily scale their applications by running multiple processes on multi-core systems, ensuring that each instance can handle requests independently. This is particularly useful for applications that require high availability and responsiveness, as it helps distribute the load across different processes, enhancing overall application performance.
 //concurrency-react+nodejs
 //dev dependencies are packages that are only needed during the development phase of a project, such as testing frameworks, build tools, and linters. They are not required for the application to run in production. By marking packages as dev dependencies, developers can keep their production environment clean and lightweight, ensuring that only essential packages are included in the final build. This distinction helps in managing project dependencies effectively and optimizing the deployment process.
+
+
+// npm init -y
+//express js is a npm package
+//MERN
