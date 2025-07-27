@@ -72,4 +72,6 @@ console.log('Server is running on http://localhost:3000');
 
 // npm init -y
 //express js is a npm package
+//express js is framework for building web applications in Node.js. It provides a robust set of features for web and mobile applications, allowing developers to create APIs and web servers quickly and efficiently. Express simplifies the process of handling HTTP requests, routing, middleware integration, and serving static files, making it a popular choice for building server-side applications in the Node.js ecosystem. Its minimalistic design and flexibility enable developers to customize their applications according to their specific needs.
+//express js is a framework for building web applications in Node.js. It provides a robust set
 //MERN
