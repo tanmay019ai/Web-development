@@ -30,4 +30,9 @@ app.use(function(err, req, res, next) {
 app.listen(3000);
 
 //middleware->server se route ke beech me jo code perform hota hai wo middleware kehlata hai
-
+//middleware should be studied using npm package express
+//middleware can be used for logging, authentication, etc.  
+//middleware can be used to handle errors
+//middleware can be used to modify request and response objects
+//middleware can be used to end the request-response cycle
+//middleware can be used to call the next middleware or route handler
