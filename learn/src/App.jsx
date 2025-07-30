@@ -4,7 +4,7 @@ function App() {
   const [userName, setUserName] = useState("Tanmay");
   const [number, setNumber] = useState(0);
 
-  // Function to change the name
+  
   const handleChangeName = () => 
     {
       if (userName === "Sarthak") {
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <div>
-      <h1>User name is {userName}</h1>
+      <h1  >User name is {userName}</h1>
       <button onClick={handleChangeName}>Change user name</button>
 
       <h1>Number is {number}</h1>
